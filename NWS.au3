@@ -54,9 +54,9 @@ EndFunc
 Func LoadEngines()
 	Local $array[][] = [ _
 		[ 0, 7 ], _
-		["Longman Dictionary", 0, 0, "-", "https://www.ldoceonline.com/dictionary/", Null, 0], _
-		["Longman Dictionary > GoogleTranslate", 0, 0, "-", "https://www-ldoceonline-com.translate.goog/dictionary/", "?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=wapp", 1], _
-		["Cambridge Dictionary (Türkçe)", 0, 0, "+", "https://dictionary.cambridge.org/tr/search/english-turkish/direct/?q=", Null, 0], _ ; ["Cambridge Dictionary (Türkçe)", 0, 0, FnCambridge, "https://dictionary.cambridge.org/tr/search/english-turkish/direct/?utm_source=widget_searchbox_source&utm_medium=widget_searchbox&utm_campaign=widget_tracking&q=", Null], _
+		["Longman Dictionary", 0, 0, "+", "https://www.ldoceonline.com/search/direct/?q=", Null, 0], _
+		["Longman Dictionary > GoogleTranslate", 0, 0, "+", "https://www-ldoceonline-com.translate.goog/search/direct/?q=", "&_x_tr_sl=auto&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=wapp", 1], _
+		["Cambridge Dictionary (Türkçe)", 0, 0, "+", "https://dictionary.cambridge.org/tr/search/english-turkish/direct/?q=", Null, 0], _
 		["Cambridge Dictionary > GoogleTranslate", 0, 0, "-", "https://dictionary-cambridge-org.translate.goog/dictionary/english/", "?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=wapp", 1], _
 		["Sesli Sözlük", 0, 0, "+", "https://www.seslisozluk.net/?word=", Null, 0], _
 		["tureng", 0, 0, "+", "https://tureng.com/tr/turkce-ingilizce/", Null, 0], _
